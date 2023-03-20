@@ -1,0 +1,577 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+
+a {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Chelsea Market', cursive;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#main__section {
+    font-family: 'Inter', sans-serif;
+    background: #44A7FD;
+    width: 100%;
+
+}
+
+.panda__main__div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 60px 0;
+
+}
+
+.panda__main__div .panda__first {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.panda__main__div .panda__second {
+    width: 55%;
+    /* padding: 10px; */
+    padding-top: 150px;
+
+}
+
+.panda__main__div .panda__first img {
+    width: 100%;
+}
+
+.panda__main__div .panda__second h1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 90px;
+    text-align: center;
+    color: #000000;
+}
+
+.panda__main__div .panda__second h1 span {
+    color: yellow;
+}
+
+.panda__main__div .panda__second p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 38px;
+    text-align: center;
+    color: #000000;
+}
+
+.for__arr {
+
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+
+}
+
+.for__arr p {
+    font-family: 'Chelsea Market';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 18px;
+    text-align: center;
+    color: #000000;
+}
+
+/* ========================2rd section start==================== */
+#second__section {
+    font-family: 'Inter', sans-serif;
+    background: #FF7575;
+    width: 100%;
+    padding: 20px 0;
+    /* height: 100vh; */
+}
+
+.second__content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+}
+
+.second__content h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 38px;
+    text-align: center;
+    color: #000000;
+    margin: 30px 0;
+}
+
+.second__content h2 {
+    font-family: 'Chelsea Market';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 38px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.sec__mid {
+    width: 90%;
+    margin: auto;
+}
+
+.sec__mid img {
+    width: 100%;
+}
+
+.mid__sections {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* ========================3rd section start==================== */
+#third__section {
+    font-family: 'Inter', sans-serif;
+    background: #6DE7D0;
+    width: 100%;
+
+}
+
+.mission__main__div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+.mission__main__div .mission__first {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.mission__main__div .mission__second {
+    width: 55%;
+
+}
+
+.for__desk {
+    display: block;
+}
+
+.for__mob {
+    display: none;
+}
+
+.mission__main__div .mission__first img {
+    width: 100%;
+}
+
+.mission__main__div .mission__second h2 {
+    font-family: 'Chelsea Market';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 90px;
+    text-align: center;
+    color: #FF7575;
+}
+
+.mission__main__div .mission__second h1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 60px;
+    text-align: center;
+    color: #000000;
+}
+
+.mission__main__div .mission__second p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38px;
+    text-align: center;
+    color: #000000;
+    margin-top: 20px;
+}
+
+/* ========================contact us section start=================== */
+#fourth__section {
+    font-family: 'Inter', sans-serif;
+    background: #FF7575;
+    width: 100%;
+}
+#fourth__section1 {
+display: none;
+}
+
+.contact__main__div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+.contact__main__div .contact__first {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contact__main__div .contact__second {
+    width: 55%;
+    padding: 100px 0;
+}
+
+.contact__main__div .contact__first img {
+    width: 100%;
+}
+
+.contact__main__div .contact__second h1 {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+.contact__main__div .contact__second p {
+    font-family: 'Chelsea Market';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 38px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+
+.inp__form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact__main__div .contact__second .control1 {
+
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 156px;
+    padding: 15px 200px 15px 20px;
+    text-align: start;
+}
+.contact__main__div .contact__second .control1:hover{
+    transition: 0.3s;
+    box-shadow: 3px 2px 5px #6DE7D0;
+} 
+.contact__Arr {
+    position: absolute;
+    left: calc(50% - 33px/2 - 103.5px);
+    /* top: calc(50% - 0px/2 + 35px);s */
+}
+.contact__Arr:hover{
+    cursor: pointer;
+}
+.fa-arrow-right {
+    font-size: 23px;
+}
+
+#main__section a {
+    padding-top: 0px;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+#main__section a .sec-1span {
+    position: absolute;
+    box-sizing: border-box;
+}
+
+#second__section a {
+    padding-top: 00px;
+    color: #000000;
+    text-decoration: none;
+}
+
+#second__section a .sec-1span {
+    position: absolute;
+    box-sizing: border-box;
+}
+
+#third__section a {
+    padding-top: 0px;
+    color: #000000;
+    text-decoration: none;
+}
+
+#third__section a .sec-1span  {
+    position: absolute;
+    box-sizing: border-box;
+}
+.input-group {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 70% !important;
+    margin: auto !important;
+
+}
+.input-group-text {
+    display: flex;
+    align-items: center;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: center;
+    white-space: nowrap;
+    background-color: white !important;
+    border: 1px solid black !important;
+    border-left: 0 !important;
+    border-radius: 0px 156px 156px 0px !important;
+}
+.input-group-text .fa-arrow-right:hover{
+    cursor: pointer;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 0.5rem 0.75rem !important;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid black !important;
+    border-right: 0 !important;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    /* border-radius: 0.375rem; */
+    border-radius: 156px 0 0 156px !important;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+/* ===========================smalll devicess=================== */
+@media screen and (max-width:1024px) {
+ 
+    #fourth__section{
+        display: none;
+    }
+    #fourth__section1{
+        display: block;
+        font-family: 'Inter', sans-serif;
+        background: #FF7575;
+        width: 100%;
+    
+    }
+ 
+    .panda__main__div {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        padding: 20px 0;
+
+    }
+
+    .panda__main__div {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .panda__main__div .panda__first {
+        width: 100%;
+    }
+
+    .panda__main__div .panda__second {
+        width: 100%;
+        padding-top: 50px;
+    }
+
+    .panda__main__div .panda__second h1 {
+        font-size: 45px;
+        line-height: 90px;
+    }
+
+    .panda__main__div .panda__second p {
+        font-size: 25px;
+    }
+
+    .for__arr {
+
+        position: relative;
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+
+    }
+
+    .mission__main__div {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .mission__main__div .mission__first {
+     display: none;
+      
+
+    }
+
+    .mission__main__div .mission__second {
+        width: 100%;
+
+    }
+
+    .for__desk {
+        display: none;
+    }
+
+    /* .for__mob {
+        display: block;
+        border-radius: 10px;
+        border: 1px solid black;
+    } */
+
+    .contact__main__div {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+    .contact__main__div .contact__first {
+       display: none;
+
+    }
+
+    .contact__main__div .contact__second {
+        width: 100%;
+    }
+
+    .contact__main__div .contact__second .control1 {
+
+        background: #FFFFFF;
+        border: 2px solid #000000;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 156px;
+        padding: 15px 100px 15px 20px;
+        text-align: start;
+    }
+
+    .contact__Arr {
+        position: relative;
+        transform: translateX(-230px);
+
+    }
+}
+
+@media screen and (max-width:740px) {
+    #main__section
+    {
+        height: 100vh;
+    }
+
+
+    #fourth__section{
+        display: block;
+        font-family: 'Inter', sans-serif;
+        background: #FF7575;
+        width: 100%;
+        height: 50vh;
+    }
+    #third__section{
+        height: 50vh;
+    }
+    #second__section{
+        height: 90vh;
+        align-items: center;
+        justify-content: center;
+        padding: 100px 0;
+    }
+    .panda__main__div .panda__second h1 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .panda__main__div .panda__second p {
+        font-size: 20px;
+    }
+
+    .mission__main__div .mission__second h2 {
+        font-size: 35px;
+        line-height: 50px;
+    }
+
+    .mission__main__div .mission__second h1 {
+
+        font-size: 50px;
+
+    }
+
+    .mission__main__div .mission__second p {
+
+        font-size: 18px;
+
+    }
+
+    .contact__Arr {
+        position: relative;
+        transform: translateX(-180px);
+
+    }
+    .second__content h3 {
+
+        font-size: 24px;
+    }
+    
+    .second__content h2 {
+        font-size: 30px;
+    }
+    .for__arr p {
+      
+        font-size: 18px;
+       
+    }
+    .contact__main__div .contact__second {
+        
+        padding: 100px 10px 100px 10px;
+    }
+    
+
+}
+
+@media screen and (max-width:640px) {
+    .contact__Arr {
+        position: relative;
+        transform: translateX(-130px);
+
+    }
+}
